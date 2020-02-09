@@ -10,7 +10,10 @@ class Solution:
 			# even
 			str2 = self.check(s, i, i+1)
 			if len(max_str) < max(len(str1), len(str2)):
-				max_str = max(len(str1), len(str2))
+				if len(str1) > len(str2):
+					max_str = str1
+				else:
+					max_str = str2
 		return max_str
 
 	def check(self, s:str, l:int, r:int) -> str:
