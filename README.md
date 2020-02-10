@@ -9,3 +9,6 @@ Preparing coding interview &amp; test
 	5. Longest Palindromic Substring
 	6. ZigZag Conversion
 	7. Reverse Integer
+	9. Palindrome Number
+	10-1. Regular Expression Matching - recursion
+	10-2. Regular Expression Matching - DP
